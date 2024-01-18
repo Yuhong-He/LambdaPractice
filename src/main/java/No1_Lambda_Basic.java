@@ -3,7 +3,7 @@ import java.util.function.IntBinaryOperator;
 import java.util.function.IntConsumer;
 import java.util.function.IntPredicate;
 
-public class Lambda_Basic {
+public class No1_Lambda_Basic {
     public static void main(String[] args) {
         new Thread(() -> System.out.println("I'm in Runnable")).start();
 
