@@ -1,9 +1,7 @@
 import Entity.Author;
 import Entity.Book;
-import lombok.val;
 
 import java.util.*;
-import java.util.function.BinaryOperator;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
