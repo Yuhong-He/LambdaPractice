@@ -2,12 +2,11 @@ import Entity.Author;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.function.Supplier;
 
 public class No5_Lambda_Optional {
     static List<Author> authors;
 
-    public static void main(String[] args) throws Throwable {
+    public static void main(String[] args) {
         authors = Data.getAuthors();
 
         Optional<Author> authorOptional1 = Optional.empty();
